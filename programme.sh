@@ -2,4 +2,4 @@
 read -p "quel est ton prénom:" nom
 
 
-echo "la varaibale contient : $nom"
+echo "la varaibale contient : $nm"
