@@ -17,4 +17,3 @@ Votre pseudo est : Renaud26 (il me la créer tout seul grace au deux information
 Information pour la recherche //
 - Ca s'appel de la concaténation le fais de fusionner deux variables.
 - Pour rappel tu programmes en Bash là ;) ca vas etre utile pour ta recherches !
-
