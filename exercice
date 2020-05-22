@@ -17,3 +17,17 @@ Votre pseudo est : Renaud26 (il me la créer tout seul grace au deux information
 Information pour la recherche //
 - Ca s'appel de la concaténation le fais de fusionner deux variables.
 - Pour rappel tu programmes en Bash là ;) ca vas etre utile pour ta recherches !
+
+/!\ une fois que tu as fini de programmer dans le fichier pseudo.sh , tu fais :
+
+git add pseudo.sh
+
+Ca va avoir pour effet de le traquer 
+
+puis tu feras un :
+
+git commit -m "version 1"
+
+enfin tu enverras tout ca sur github (pour que je puisse les recuperer) avec : 
+
+git push origin master
