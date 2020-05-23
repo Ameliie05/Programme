@@ -9,6 +9,7 @@ echo "le prénom  choisi est : $nom"
 read -p " quel est ton age :" age
 echo "l'age choisi est : $age"
 pseudo="${nom} ${age}"
+clear
 echo " votre pseudo est : ${pseudo} "
 
 }
@@ -19,6 +20,8 @@ pseudoAleatoire() {
 
 	read -p "quel est ton prenom :" prenom
 nombre=`echo "$prenom" | wc -m `
+clear
+echo "votre pseudo aleatoire est : " 
 cat /dev/urandom | tr -dc $prenom | fold -w ${1:-$nombre} | head -n 1
 
 }
@@ -31,6 +34,9 @@ choix=("Pseudo aleatoire" "Pseudo a partir prenom + age" "quitter")
 
 
 # ici on créer le menu 
+clear
+echo "Bienvenue dans le premier programme créer par Amélie :D "
+echo ""
 
 select choixUtilisateur in "${choix[@]}"
 do
