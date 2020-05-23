@@ -2,7 +2,8 @@
 
 
 
-read -p  "quel est ton prénom :" nom
+read -p  "quel est ton prenom :" nom
 
-echo "le prénom choisi est : $nom"
-
+echo "le prénom  choisi est : $nom"
+read -p " quel est ton age :" age
+echo "l'age choisi est : $age"
